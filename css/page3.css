@@ -1,0 +1,381 @@
+html {
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg {
+  width: 1440px;
+  height: auto;
+  background-color: #fff;
+}
+
+.head {
+  display: flex;
+}
+.headerintro {
+  width: 1140px;
+  height: 65px;
+  padding-top: 35px;
+  padding-left: 197px;
+  background-color: #5aa4ae;
+}
+.text_intro1 {
+  width: 72px;
+  height: 29px;
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.text_intro2 {
+  width: 96px;
+  height: 29px;
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.text_intro3 {
+  width: 72px;
+  height: 33px;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pic_1 {
+  display: none;
+}
+
+.pic_2 {
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+label {
+  display: block;
+}
+
+.checkbtn {
+  font-size: 20px;
+  color: #fff;
+  /* line-height: 80px; */
+  margin-top: 10px;
+  margin-left: 239px;
+  /* margin-top: -30px;
+  margin-left: 70px; */
+  /* display: none; */
+}
+
+li {
+  line-height: 15px;
+  list-style: none;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.text_2 {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 12px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 240px;
+  border-radius: 0 0 0 20px;
+  background-color: #5aa4ae;
+  margin-top: 48px;
+  margin-left: -80px;
+  position: relative;
+  z-index: 3;
+  display: none;
+  /* display: none; */
+}
+label {
+  display: block;
+  display: none;
+}
+#burger:checked + ul {
+  display: block;
+}
+#burger {
+  display: none;
+}
+
+.headerintro {
+  width: 1140px;
+  height: 100px;
+  padding-top: 35px;
+  padding-left: 197px;
+  background-color: #5aa4ae;
+}
+.text_intro1 {
+  width: 72px;
+  height: 29px;
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.text_intro2 {
+  width: 96px;
+  height: 29px;
+  font-size: 24px;
+  color: #ffffff;
+  margin-right: 30px;
+  text-decoration: none;
+}
+.text_intro3 {
+  width: 33px;
+  height: 29px;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.headerintro_1 {
+  display: none;
+}
+
+.text {
+  display: none;
+}
+
+.LoginBg {
+  width: 700px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  background-color: #5aa4ae;
+  border-radius: 30px;
+}
+
+.LoginWord {
+  margin: 0%;
+  display: flex;
+  font-size: 40px;
+  color: #ffffff;
+  padding-top: 130px;
+  justify-content: center;
+}
+
+.InputPlace {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 130px;
+}
+
+.input {
+  padding-bottom: 30px;
+}
+
+.input input {
+  width: 500px;
+  height: 60px;
+  background-color: #e5e5e5;
+  border-radius: 30px;
+  border: none;
+  font-size: 24px;
+  padding-left: 25px;
+  color: #8f8f8f;
+}
+
+.bottom {
+  display: flex;
+  width: 768px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  background-color: #5aa4ae;
+  margin-top: 484px;
+  display: none;
+}
+
+.information {
+  display: flex;
+  margin: 0%;
+  color: #ffffff;
+  font-size: 10px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .bg {
+    width: 768px;
+    height: 1024px;
+  }
+
+  .headerintro {
+    display: none;
+  }
+
+  .headerintro_1 {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 24px;
+  }
+
+  .text {
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 14px;
+  }
+
+  .head {
+    width: 768px;
+    height: 48px;
+    background-color: #5aa4ae;
+  }
+
+  .pic {
+    display: none;
+  }
+
+  .pic_1 {
+    display: flex;
+  }
+
+  .pic_2 {
+    display: none;
+  }
+
+  .LoginWord {
+    padding-top: 70px;
+  }
+
+  .LoginBg {
+    width: 400px;
+    height: 300px;
+  }
+
+  .InputPlace {
+    padding-top: 51px;
+  }
+
+  .input {
+    padding-bottom: 19px;
+  }
+
+  .input input {
+    width: 300px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  .LoginWord {
+    font-size: 24px;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .information {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .bg {
+    width: 320px;
+    height: 780px;
+  }
+
+  .headerintro {
+    display: none;
+  }
+
+  .headerintro_1 {
+    display: none;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    display: none;
+  }
+
+  label {
+    display: block;
+  }
+
+  #check:checked + ul {
+    display: block;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .head {
+    width: 320px;
+    height: 48px;
+    background-color: #5aa4ae;
+    /* justify-content: space-between; */
+  }
+
+  .pic {
+    display: none;
+  }
+
+  .pic_1 {
+    display: none;
+  }
+
+  .pic_2 {
+    display: flex;
+  }
+
+  .LoginWord {
+    padding-top: 31px;
+    font-size: 14px;
+  }
+
+  .LoginBg {
+    width: 280px;
+    height: 180px;
+    border-radius: 20px;
+  }
+
+  .InputPlace {
+    padding-top: 38px;
+  }
+
+  .input {
+    padding-bottom: 16px;
+  }
+
+  .input input {
+    width: 220px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  .information {
+    display: none;
+  }
+}

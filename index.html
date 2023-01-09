@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="click.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href=".\css\bootstrap.css" />
+    <link rel="stylesheet" href="css\index.css" />
+  </head>
+
+  <body>
+    <div class="bg">
+      <header>
+        <div class="head">
+          <a href="index.html" class="pic"><img src="img/Group 12.png" /></a>
+          <a href="index.html" class="pic_1"><img src="img/Group 81.png" /></a>
+          <a href="index.html" class="pic_2"
+            ><img src="img/s_cyivs_logo 2.png"
+          /></a>
+          <div class="headerintro">
+            <a class="text_intro1" href="page1.html">公佈欄</a>
+            <a class="text_intro2" href="">認識嘉工</a>
+            <a class="text_intro2" href="page2.html">行政單位</a>
+            <a class="text_intro2" href="">教學單位</a>
+            <a class="text_intro2" href="page3.html">校務系統</a>
+            <a class="text_intro2" href="">資源平台</a>
+            <a class="text_intro2" href="">意見交流</a>
+            <a class="text_intro3" href="">EN</a>
+          </div>
+
+          <div class="headerintro_1">
+            <a class="text" href="page1.html">公佈欄</a>
+            <a class="text" href="">認識嘉工</a>
+            <a class="text" href="page2.html">行政單位</a>
+            <a class="text" href="">教學單位</a>
+            <a class="text" href="page3.html">校務系統</a>
+            <a class="text" href="">資源平台</a>
+            <a class="text" href="">意見交流</a>
+            <a class="text" href="">EN</a>
+          </div>
+
+          <label for="burger" class="checkbtn">三</label>
+          <input type="checkbox" id="burger" />
+
+          <ul class="dropdown">
+            <li><a class="text_2" href="page1.html">公佈欄</a></li>
+            <li><a class="text_2" href="">認識嘉工</a></li>
+            <li><a class="text_2" href="page2.html">行政單位</a></li>
+            <li><a class="text_2" href="">教學單位</a></li>
+            <li><a class="text_2" href="page3.html">校務系統</a></li>
+            <li><a class="text_2" href="">資源平台</a></li>
+            <li><a class="text_2" href="">意見交流</a></li>
+            <li><a class="text_2" href="">EN</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/RollPicture/1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img\RollPicture\2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img\RollPicture\3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+      ></script>
+
+      <p class="topword">- 榮譽榜 -</p>
+      <div class="HonorImgWord">
+        <div class="LeftImg">
+          <img class="robotpicture" src="img\car.jpg" />
+        </div>
+        <div class="Right">
+          <div class="RightWord">
+            <a class="article" href="#"
+              >TIRT機器人競賽-無人車競速賽『穿金戴銀』<br />2022-10-18</a
+            >
+            <a class="article" href="#"
+              >「111學年度英文單字競賽」得獎名單 <br />2022-10-17</a
+            >
+            <a class="article" href="#"
+              >公告111學年度「數理及資訊學科能力競賽」初賽<br />得獎名單
+              2022-10-17</a
+            >
+            <a class="article" href="#"
+              >恭喜本校參加嘉義市111學年度學生美術比賽榮獲<br />佳績
+              2022-10-17</a
+            >
+            <a class="article" href="#"
+              >恭賀 英文科蔡宛凌、張渝琪、沈玫伶老師指導學生<br />參加111年Cool
+              English 旅遊英聽高手獎 <br />
+              2022-10-11</a
+            >
+            <a class="article" href="#">第46屆國際技能競賽捷報 2022-10-11</a>
+
+            <a class="article_1" href="#"
+              >TIRT機器人競賽-無人車競速賽『穿金戴銀』2022-10-18</a
+            >
+            <a class="article_1" href="#"
+              >「111學年度英文單字競賽」得獎名單 2022-10-17</a
+            >
+            <a class="article_1" href="#"
+              >公告111學年度「數理及資訊學科能力競賽」初賽得獎名單 2022-10-17</a
+            >
+            <a class="article_1" href="#"
+              >恭喜本校參加嘉義市111學年度學生美術比賽榮獲佳績 2022-10-17</a
+            >
+            <a class="article_1" href="#"
+              >恭賀 英文科蔡宛凌、張渝琪、沈玫伶老師指導學生參加111年Cool
+              English 旅遊英聽高手獎 2022-10-11</a
+            >
+            <a class="article_1" href="#">第46屆國際技能競賽捷報 2022-10-11</a>
+
+            <a class="article_2" href="#"
+              >TIRT機器人競賽-無人車競速賽『穿金戴銀』<br />2022-10-18</a
+            >
+            <a class="article_2" href="#"
+              >「111學年度英文單字競賽」得獎名單 <br />2022-10-17</a
+            >
+            <a class="article_2" href="#"
+              >公告111學年度「數理及資訊學科能力競賽」初賽得獎名<br />單
+              2022-10-17</a
+            >
+            <a class="article_2" href="#"
+              >恭喜本校參加嘉義市111學年度學生美術比賽榮獲佳績<br />2022-10-17</a
+            >
+            <a class="article_2" href="#"
+              >恭賀 英文科蔡宛凌、張渝琪、沈玫伶老師指導學生參加<br />111年Cool
+              English 旅遊英聽高手獎 <br />
+              2022-10-11</a
+            >
+            <a class="article_2" href="#">第46屆國際技能競賽捷報 2022-10-11</a>
+          </div>
+          <a class="article_extend" href="#">MORE</a>
+        </div>
+      </div>
+
+      <footer class="bottom">
+        <p class="information">
+          國立嘉義高級工業職業學校Copyright © 2010 國立嘉義高級工業職業學校
+          版權所有 <br />地址：600040嘉義市彌陀路174號 <br />
+          電話： 05-2763060 全校分機 │進修學校 05-2785851 │ 傳真：05-2762497
+        </p>
+        <p class="information_2">
+          國立嘉義高級工業職業學校Copyright<br />© 2010 國立嘉義高級工業職業學校
+          版權所有 <br />地址：600040嘉義市彌陀路174號 <br />
+          電話： 05-2763060 全校分機<br />進修學校 05-2785851<br />傳真：05-2762497
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
