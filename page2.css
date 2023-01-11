@@ -1,0 +1,935 @@
+@media screen {
+	html{
+		font-family:Arial;
+	}
+	
+	.head{
+		display:flex;
+	}
+	.icon{
+		width: 300px;
+		height: 100px;
+		padding: 0%;
+		margin: 0%;
+	}
+	.icon2{
+		display: none;
+	}
+	.icon3{
+		display: none;
+	}
+
+	body{
+		margin: 0%;
+		padding: 0%;
+		font-family: Arial, Helvetica, sans-serif;
+	  }
+	
+	.bg {
+		width: 1440px;
+		height: auto;
+		margin-left: 0;
+		margin-right: 0;
+		background-color: #fff;
+	  }
+	
+	  .head {
+		display: flex;
+	  }
+	  
+	  .pic_1 {
+		display: none;
+	  }
+	  
+	  .pic_2 {
+		display: none;
+	  }
+	  
+	  #check {
+		display: none;
+	  }
+	  
+	  label {
+		display: block;
+	  }
+	  
+	  .checkbtn {
+		font-size: 20px;
+		color: #fff;
+		/* line-height: 80px; */
+		margin-top: 10px;
+		margin-left: 239px;
+		/* margin-top: -30px;
+		margin-left: 70px; */
+		/* display: none; */
+	  }
+	  
+	  li {
+		line-height: 15px;
+		list-style: none;
+		margin-bottom: 12px;
+		display: flex;
+		justify-content: flex-end;
+		margin-right: 20px;
+	  }
+	  
+	  .text_2 {
+		text-decoration: none;
+		list-style: none;
+		color: #fff;
+		font-size: 12px;
+	  }
+	  
+	  ul {
+		margin: 0;
+		padding: 0;
+		width: 100px;
+		height: 240px;
+		border-radius: 0 0 0 20px;
+		background-color: #5aa4ae;
+		margin-top: 48px;
+		margin-left: -80px;
+		position: relative;
+		z-index: 3;
+		display: none;
+		/* display: none; */
+	  }
+	  label {
+		display: block;
+		display: none;
+	  }
+	  #burger:checked + ul {
+		display: block;
+	  }
+	  #burger {
+		display: none;
+	  }
+	  
+	  .headerintro {
+		width: 1140px;
+		height: 65px;
+		padding-top: 35px;
+		padding-left: 197px;
+		background-color: #5aa4ae;
+	  }
+	  .text_intro1 {
+		width: 72px;
+		height: 29px;
+		font-size: 24px;
+		color: #ffffff;
+		margin-right: 30px;
+		text-decoration: none;
+	  }
+	  .text_intro2 {
+		width: 96px;
+		height: 29px;
+		font-size: 24px;
+		color: #ffffff;
+		margin-right: 30px;
+		text-decoration: none;
+	  }
+	  .text_intro3 {
+		width: 33px;
+		height: 29px;
+		font-size: 24px;
+		color: #ffffff;
+		text-decoration: none;
+	  }
+	  
+	  .headerintro_1 {
+		display: none;
+	  }
+	.bar{
+		width:50px;
+		height:1px;
+		background-color:#000000;
+	}
+	.title{
+		font-size:32px;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		margin-top:40px;
+		margin-bottom: 100px;
+	}
+	.maintitle{
+		margin:0px 10px 0 10px;
+	}
+	.main{
+		width: 1440px;
+		height: 660px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 40px;
+	}
+	.img1{
+		width: 80px;
+		height: 80px;
+		margin: 12px 35px 0px 15px;
+	}
+	.img1:hover{
+		animation-name: flipCard;
+		animation-duration: 2s;
+	}
+	@keyframes flipCard{
+		5%{transform: rotateY(0deg);}
+		30%{transform: rotateY(180deg);}
+		70%{transform: rotateY(360deg);}
+		
+	}
+	.office1{
+		margin-left: 100px;
+		margin-right: 35px;
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	
+	.president{
+		margin: 15px 0 0 0;
+		width: 72px;
+		height: 29px;
+		font-size: 24px;
+	}
+	.intro_president{
+		width: 214px;
+		height: 19px;
+		font-size: 16px;
+		letter-spacing: 1.6px;
+		margin-top: 6px;
+	}
+	.office2{
+		margin-right: 35px;
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.A-affairs{
+		margin: 15px 0 0 0;
+		width: 72px;
+		height: 29px;
+	}
+	
+	.intro_A-affairs{
+		margin-top: 6px;
+		font-size: 16px;
+		width: 267px;
+		height: 38px;
+		text-align: left;
+		letter-spacing: 1.6px;
+	}
+	.office3{
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.S-affairs{
+		margin: 15px 0 0 0;
+		width: 72px;
+		height: 29px;
+	}
+	.intro_S-affairs{
+		font-size: 16px;
+		text-align: left;
+		letter-spacing: 1.6px;
+		margin-top: 6px;
+	
+	}
+	.main2{
+		display: flex;
+		margin-bottom: 40px;
+	}
+	.office4{
+		margin-left: 100px;
+		margin-right: 35px;
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.G-affairs{
+		margin: 15px 0 0 0;
+	}
+	.intro_G-affairs{
+		letter-spacing: 1.6px;
+		margin-top: 6px;
+	}
+	.internship{
+		margin: 15px 0 0 0;
+		width: 72px;
+		height: 29px;
+	}
+	.office5{
+		margin-right: 35px;
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.intro_internship{
+		width: 214px;
+		height: 38px;
+		letter-spacing: 1.6px;
+		margin-top: 6px;
+	}
+	.office6{
+	
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.counselor{
+		margin: 15px 0 0 0;
+	}
+	.main3{
+		display: flex;
+		margin-bottom: 40px;
+	}
+	.office7{
+		margin-right: 35px;
+		margin-left: 100px;
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.library{
+		margin: 15px 0 0 0;
+	}
+	.office8{
+		margin-right: 35px;
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.money{
+		margin: 15px 0 0 0;
+	}
+	.office9{
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.people{
+		margin: 15px 0 0 0;
+	}
+	.main4{
+		display: flex;
+		margin-bottom: 40px;
+	}
+	.office10{
+		margin-left: 100px;
+		margin-right: 35px;
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.continuing{
+		margin: 15px 0 0 0;
+	}
+	.intro_continuing{
+		width: 239px;
+		height: 38px;
+		letter-spacing: 1.6px;
+		margin-top: 6px;
+	}
+	.office11{
+		margin-right: 35px;
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.teacher{
+		margin: 15px 0 0 0;
+	}
+	.office12{
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.parent{
+		margin: 15px 0 0 0;
+	}
+	.office13{
+		margin-left: 100px;
+		width: 390px;
+		height: 100px;
+		border-style: solid;
+		border-width: 6px;
+		border-color: #5AA4AE;
+		border-radius: 20px;
+		display:flex;
+		cursor:pointer;
+	}
+	.alumni{
+		margin: 15px 0 0 0;
+	}
+}
+@media screen and (max-device-width:768px) {
+	.body{
+		width: 768px;
+		height: auto;
+		padding: 0%;
+		margin: 0%;
+	}
+	.bg {
+		width: 768px;
+		height: auto;
+		margin:0%;
+		padding: 0%;
+		background-color: #fff;
+	  }
+	.icon1{
+		display: none;
+	}
+
+	.icon2{
+		display: block;
+	}
+	.headerintro {
+		display: none;
+	  }
+	
+	  .headerintro_1 {
+		display: flex;
+		padding-top: 15px;
+		padding-left: 24px;
+	  }
+	
+	  .text {
+		display: flex;
+		color: #ffffff;
+		text-decoration: none;
+		padding-right: 15px;
+		font-size: 14px;
+	  }
+	
+	  .head {
+		width: 768px;
+		height: 48px;
+		background-color: #5aa4ae;
+	  }
+	.main{
+		width: 768px;
+		height: auto;
+	}
+	.president{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.intro_president{
+		display: none;
+	}	
+	.img1{
+		margin-top: 15px;
+		width: 50px;
+		height: 50px;
+	}
+	.office1{
+		width: 200px;
+		height: 80px;
+		margin-left: 40px;
+		margin-bottom: 20px;
+	}
+	.office2{
+		width: 200px;
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	.A-affairs{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.intro_A-affairs{
+		display: none;
+	}
+	.office3{
+		width: 200px;
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	.S-affairs{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.intro_S-affairs{
+		display: none;
+	}
+	.office4{
+		width: 200px;
+		height: 80px;
+		margin-left: 40px;
+		margin-bottom: 20px;
+	}
+	.G-affairs{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.intro_G-affairs{
+		display: none;
+	}
+	.office5{
+		width: 200px;
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	.internship{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.intro_internship{
+		display: none;
+	}
+	.office6{
+		width: 200px;
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	.counselor{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.office7{
+		width: 200px;
+		height: 80px;
+		margin-left: 40px;
+		margin-bottom: 20px;
+	}
+	.library{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.office8{
+		width: 200px;
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	.money{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.office9{
+		width: 200px;
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	.people{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.office10{
+		width: 200px;
+		height: 80px;
+		margin-left: 40px;
+		margin-bottom: 20px;
+	}
+	.continuing{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.intro_continuing{
+		display: none;
+	}
+	.office11{
+		width: 200px;
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	.teacher{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.office12{
+		width: 200px;
+		height: 80px;
+		margin-bottom: 20px;
+	}
+	.parent{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+	.office13{
+		width: 200px;
+		height: 80px;
+		margin-left: 40px;
+		margin-bottom: 20px;
+	}
+	.alumni{
+		margin-top: 28px;
+		width: 63px;
+		height: 23px;
+		font-size: 20px;
+	}
+}
+@media screen and (max-device-width:320px) {
+	.bg{
+		width: 320px;
+		height:auto;
+	}
+	.headerintro {
+		display: none;
+	  }
+	
+	  .headerintro_1 {
+		display: none;
+	  }
+	
+	  .checkbtn {
+		display: block;
+	  }
+	
+	  ul {
+		display: none;
+	  }
+	
+	  label {
+		display: block;
+	  }
+	
+	  #check:checked + ul {
+		display: block;
+	  }
+	
+	  .text {
+		display: none;
+	  }
+	
+	  .head {
+		width: 320px;
+		height: 48px;
+		background-color: #5aa4ae;
+		/* justify-content: space-between; */
+	  }
+	
+	  .d-block w-100 {
+		height: 200px;
+		width: 320px;
+	  }
+	.icon3{
+		display: block;
+	}
+	.icon2{
+		display: none;
+	}
+	.main{
+		width: 320px;
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.maintitle{
+		font-size:12px ;
+	}
+	.title{
+		margin-bottom: 30px;
+	}
+	.img1{
+		margin: 0%;
+		width: 50px;
+		height: 50px;
+	}
+	.president{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.office1{
+		width: 130px;
+		height: 50px;
+		margin-left: 20px;
+		margin-right: 0%;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.office2{
+		width: 130px;
+		height: 50px;
+		margin-right: 0%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.A-affairs{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.intro_A-affairs{
+		display: none;
+	}
+	.office3{
+		width: 130px;
+		height: 50px;
+		margin-right: 0%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.S-affairs{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.intro_S-affairs{
+		display: none;
+	}
+	.office4{
+		width: 130px;
+		height: 50px;
+		margin-right: 0%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.G-affairs{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.intro_G-affairs{
+		display: none;
+	}
+	.office5{
+		width: 130px;
+		height: 50px;
+		margin-right: 0%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.internship{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.intro_internship{
+		display: none;
+	}
+	.office6{
+		width: 130px;
+		height: 50px;
+		margin-left: 20px;
+		margin-right: 0%;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.counselor{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.office7{
+		width: 130px;
+		height: 50px;
+		margin-right: 0%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.library{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.office8{
+		width: 130px;
+		height: 50px;
+		margin-left: 20px;
+		margin-right: 0%;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.money{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.office9{
+		width: 130px;
+		height: 50px;
+		margin-right: 0%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.people{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.office10{
+		width: 130px;
+		height: 50px;
+		margin-right: 0%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.continuing{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.intro_continuing{
+		display: none;
+	}
+	.office11{
+		width: 130px;
+		height: 50px;
+		margin-left: 20px;
+		margin-right: 0%;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.teacher{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.office12{
+		width: 130px;
+		height: 50px;
+		margin-right: 0%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.parent{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+	.office13{
+		width: 130px;
+		height: 50px;
+		margin-right: 0%;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		border-radius: 30px;
+		border-width: 2px;
+	}
+	.alumni{
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 49px;
+		height: 17px;
+		font-size: 14px;
+	}
+}

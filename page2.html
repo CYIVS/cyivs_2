@@ -1,28 +1,57 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="css\page2.css">
+		<link rel="stylesheet" href="page2.css">
 		<title>國立嘉義工業職業學校_行政單位</title>
 	</head>
 	
 	<body>
 		<div class="bg">
 			<header>
-		    	<div class="head">
-			    	<a href="index.html"><img src="img/Group 12.png"></a>
-			    	<div class="headerintro">
-				    	<a class="text_intro1" href="page1.html">公佈欄</a>
-				    	<a class="text_intro2" href="">認識嘉工</a>
-				    	<a class="text_intro2" href="page2.html">行政單位</a>
-				    	<a class="text_intro2" href="">教學單位</a>
-				    	<a class="text_intro2" href="page3.html">校務系統</a>
-				    	<a class="text_intro2" href="">資源平台</a>
-				    	<a class="text_intro2" href="">意見交流</a>
-				    	<a class="text_intro3" href="">EN</a>
-			    	</div>
-		    	</div>
-	    	</header>
+				<div class="head">
+				  <a href="index.html" class="icon1"><img src="img/Group 12.png" /></a>
+				  <a href="index.html" class="icon2"><img src="img/Component 1.png" /></a>
+				  <a href="index.html" class="icon3"><img src="img/s_cyivs_logo 2.png"/></a>
+				  <div class="headerintro">
+					<a class="text_intro1" href="page1.html">公佈欄</a>
+					<a class="text_intro2" href="">認識嘉工</a>
+					<a class="text_intro2" href="page2.html">行政單位</a>
+					<a class="text_intro2" href="">教學單位</a>
+					<a class="text_intro2" href="page3.html">校務系統</a>
+					<a class="text_intro2" href="">資源平台</a>
+					<a class="text_intro2" href="">意見交流</a>
+					<a class="text_intro3" href="">EN</a>
+				  </div>
+		
+				  <div class="headerintro_1">
+					<a class="text" href="page1.html">公佈欄</a>
+					<a class="text" href="">認識嘉工</a>
+					<a class="text" href="page2.html">行政單位</a>
+					<a class="text" href="">教學單位</a>
+					<a class="text" href="page3.html">校務系統</a>
+					<a class="text" href="">資源平台</a>
+					<a class="text" href="">意見交流</a>
+					<a class="text" href="">EN</a>
+				  </div>
+		
+				  <label for="burger" class="checkbtn">三</label>
+				  <input type="checkbox" id="burger" />
+		
+				  <ul class="dropdown">
+					<li><a class="text_2" href="page1.html">公佈欄</a></li>
+					<li><a class="text_2" href="">認識嘉工</a></li>
+					<li><a class="text_2" href="page2.html">行政單位</a></li>
+					<li><a class="text_2" href="">教學單位</a></li>
+					<li><a class="text_2" href="page3.html">校務系統</a></li>
+					<li><a class="text_2" href="">資源平台</a></li>
+					<li><a class="text_2" href="">意見交流</a></li>
+					<li><a class="text_2" href="">EN</a></li>
+				  </ul>
+				</div>
+			  </header>
 	    	<main>
 				<div class="title">
 					<div class="bar"></div>
@@ -31,78 +60,79 @@
 				</div>
 			
 				<div class="main">
-					</div class="main1">
-						<div class="icon1">
+						<div class="office1" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/校長室.png" class="img1">
+							<div class="word">
+								<h2 class="president">校長室</h2>
+								<p class="intro_president">校長室 / 副校長室 / 秘書室</p>
+							</div>
+						</div>
+						<div class="office2" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/教務處.png" class="img1">
+							<div class="word">
+								<h2 class="A-affairs">教務處</h2>
+								<p class="intro_A-affairs">教學組/註冊組/設備組/課務組/學務組/實驗研究組/特教組/資源班</p>
+							</div>
+						</div>
+						<div class="office3" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/學務處.png" class="img1">
+							<div class="word">
+								<h2 class="S-affairs">學務處</h2>
+								<p class="intro_S-affairs">生輔組/訓育組/教官室/體育組/衛生組/課外活動組</p>
+							</div>
 						</div>
-						<div class="office1">
-							<h2 class="president">校長室</h2>
-							<p class="intro_president">校長室 / 副校長室 / 秘書室</p>
-						</div>
-						<div class="office2">
-							<h2 class="A-affairs">教務處</h2>
-							<p class="intro_A-affairs">教學組/註冊組/設備組/課務組/學務組/實驗研究組/特教組/資源班</p>
-						</div>
-						<div class="office3">
-							<h2 class="S-affairs">學務處</h2>
-							<p class="intro_S-affairs">生輔組/訓育組/教官室/體育組/衛生組/課外活動組</p>
-						</div>
-
-						<div class="icon2">
+						<div class="office4" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/總務處.png" class="img1">
+							<div class="word">
+								<h2 class="G-affairs">總務處</h2>
+								<p class="intro_G-affairs">庶務組/出納組/文書組</p>
+							</div>
+						</div>
+						<div class="office5" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/實習處.png" class="img1">
+							<div class="word">
+								<h2 class="internship">實習處</h2>
+								<p class="intro_internship">實習處/就業組/實用技能組/研究發展組/特產工作小組</p>
+							</div>
+						</div>
+						<div class="office6" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/輔導室.png" class="img1">
-						</div>
-						<div class="office4">
-							<h2 class="G-affairs">總務處</h2>
-							<p class="intro_G-affairs">庶務組/出納組/文書組</p>
-						</div>
-						<div class="office5">
-							<h2 class="internship">實習處</h2>
-							<p class="intro_internship">實習處/就業組/實用技能組/研究發展組/特產工作小組</p>
-						</div>
-						<div class="office6">
 							<h2 class="counselor">輔導室</h2>
 						</div>
-					
-						<div class="icon3">
+						<div class="office7" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/圖書館.png" class="img1">
-							<img src="img/主計室.png" class="img1">
-							<img src="img/人事室.png" class="img1">
-						</div>
-						<div class="office7">
 							<h2 class="library">圖書館</h2>
 						</div>
-						<div class="office8">
+						<div class="office8" tabindex="0" role="button" onclick="window.open('','_self')">
+							<img src="img/主計室.png" class="img1">
 							<h2 class="money">主計室</h2>
 						</div>
-						<div class="office9">
+						<div class="office9" tabindex="0" role="button" onclick="window.open('','_self')">
+							<img src="img/人事室.png" class="img1">
 							<h2 class="people">人事處</h2>
 						</div>
-						<div class="icon4">
+						<div class="office10" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/進修部.png" class="img1">
+							<div class="word">
+								<h2 class="continuing">進修部</h2>
+								<p class="intro_continuing">教學組/註冊組/訓育組/生輔組/衛生組</p>
+							</div>
+						</div>
+						<div class="office11" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/教師會.png" class="img1">
-							<img src="img/家長會.png" class="img1">
-						</div>
-						<div class="office10">
-							<h2 class="continuing">進修部</h2>
-							<p class="intro_continuing">教學組/註冊組/訓育組/生輔組/衛生組</p>
-						</div>
-						<div class="office11">
 							<h2 class="teacher">教師會</h2>
 						</div>
-						<div class="office12">
+						<div class="office12" tabindex="0" role="button" onclick="window.open('','_self')"> 
+							<img src="img/家長會.png" class="img1">
 							<h2 class="parent">家長會</h2>
 						</div>
-						<div class="icon5">
+
+
+						<div class="office13" tabindex="0" role="button" onclick="window.open('','_self')">
 							<img src="img/校友會.png" class="img1">
-						</div>
-						<div class="office13">
 							<h2 class="alumni">校友會</h2>
 						</div>
-					</div>
+
 				</div>
 			</main>
 		</div>
